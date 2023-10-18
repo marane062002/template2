@@ -1,0 +1,245 @@
+body{
+    background: url("../images/ornement-bg-left.png");
+    
+}
+.bl{
+    font-family: 'Gabarito', sans-serif;
+    position: sticky;
+    top: 50%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    
+}
+
+.call-us {
+  color: #fff; }
+  @media (max-width: 991.98px) {
+    .call-us {
+      display: none !important; } }
+  .call-us [class^="icon-"] {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+    line-height: 36px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    border: 2px solid transparent;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  .call-us:hover {
+    color: #fff; }
+    .call-us:hover [class^="icon-"] {
+      background: transparent;
+      border: 2px solid #fff; }
+      .switch {
+        position: relative;
+        display: inline-block;
+        margin: 0 5px;
+      }
+      
+      .switch > span {
+        position: absolute;
+        top: 14px;
+        pointer-events: none;
+        font-family: 'Helvetica', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+        width: 50%;
+        text-align: center;
+      }
+
+
+      input.check-toggle-round-flat + label:before {
+        top: 2px;
+        left: 2px;
+        bottom: 2px;
+        right: 2px;
+        background-color: #cd8848;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+        border-radius: 60px;
+    }
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.card{
+    background-color: gainsboro;
+    padding: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 0.25rem;
+    opacity: 0.85;
+}
+.ml{
+  margin-top: 9rem;
+}
+button{
+  font-weight: 700;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800");
+
+
+.frontend-side {
+  /* background-image: url("../images/benef.png"); */
+  background-color: #c52b33;
+  opacity: 0.9;
+  
+}
+.frontend-side button:hover {
+ 
+}
+
+.uiux-side {
+  /* background-image: url("../images/donateur.png"); */
+  background-color: #cd8848;
+  opacity: 0.9;
+
+}
+.uiux-side button:hover {
+  color: #005de3;
+}
+button{
+  color: #fff;
+  
+}
+
+.split-pane {
+  padding-top: 1em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 16em;
+  font-size: 2em;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+@media (min-width: 500px) {
+  .split-pane {
+    padding-top: 2em;
+    height: 100%;
+  }
+}
+.split-pane div {
+  /* position: relative;
+  transform: translateY(-50%); */
+  /* top: 50%; */
+}
+.split-pane div button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 0.5em;
+  padding: 0.8em;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+@media (max-width: 500px) {
+  .split-pane div button {
+    font-size: 0.4em;
+  }
+}
+.split-pane div button:hover {
+  background: #fff;
+  text-decoration: none;
+}
+.split-pane div .text-content {
+  line-height: 1.6em;
+  margin-bottom: 1em;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.split-pane div .text-content .bold {
+  font-size: 0.6em;
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .split-pane div .text-content .bold {
+    font-size: 0.4em;
+  }
+}
+.split-pane div .text-content .big {
+  font-size: 2em;
+    font-weight: 800;
+    color: bisque;
+}
+@media (max-width: 500px) {
+  .split-pane div .text-content .big {
+    font-size: 1.5em;
+  }
+}
+
+.split-pane-line {
+  color: white;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  text-align: center;
+}
+.split-pane-line img {
+  height: 6em;
+}
+@media (max-width: 500px) {
+  .split-pane-line img {
+    height: 3em;
+  }
+}
+
+@media (min-width: 500px) {
+  .col-sm-6 {
+    width: 50%;
+  }
+}
+
+.credits footer {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  text-align: right;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+.credits footer p {
+  border: none;
+  padding: 0;
+}
+.credits footer p strong {
+  font-size: 2em;
+  text-decoration: none;
+}
+.credits footer p strong:hover {
+  color: #ff0909;
+  transition: all 0.4s ease-in-out;
+  font-weight: 1500;
+  font-size: 4em;
+}
+.credits footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.9s ease-in-out;
+}
+.credits footer a:hover {
+  color: #ff2222;
+  font-weight: 900;
+  font-size: 1.5em;
+}

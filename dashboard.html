@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gotto Job Contact</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
+    <link href="css/tooplate-gotto-job.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding: 10px;
+}
+.topnav {
+  background-color: #ffff;
+  overflow: hidden;
+}
+.far.fa-user-circle {
+  font-size: 29px;
+  color: #726f6f;
+  padding-top: 10px;
+}
+.input-10 {
+  width: 40px;
+  color: #4c4c96;
+  font-weight: 600;
+}
+.fas.fa-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightsalmon;
+  height: 100%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #8d8b8b;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+  color: black;
+  border-bottom: 3px solid red;
+}
+.topnav .active {
+  color: black;
+  border-bottom: 3px solid red;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 90%;
+  height: 36px;
+  background: #fff;
+}
+form.example input[type="text"]:focus {
+  outline: none;
+}
+form.example button {
+  float: left;
+  width: 10%;
+  height: 36px;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #873b3f;
+  color: white;
+  font-size: 14px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+::placeholder {
+  font-size: 10px;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container .table-responsive {
+  margin: 20px auto;
+  overflow-x: auto;
+}
+.container .table-responsive::-webkit-scrollbar {
+  height: 5px;
+}
+.container .table-responsive::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #5d7ecd, #0c91e6);
+}
+.table thead tr th {
+  font-size: 11px;
+  color: #868585;
+  padding: 10px 10px;
+}
+.table tbody tr td {
+  font-size: 13.5px;
+  padding: 10px 10px;
+}
+#navbar {
+  width: 20%;
+  background-color: #21214e !important;
+  height: 50px;
+  border: none;
+}
+.bg-blight {
+  color: #c15b60;
+  font-weight: 600;
+}
+.bg-bdark {
+  color: #4c4c96;
+  font-weight: 600;
+}
+#navbar a {
+  color: white;
+}
+.fas.fa-bars {
+  color: white;
+}
+#navbar2 {
+  width: 80%;
+}
+#navbar-items {
+  width: 20%;
+  height: 500px;
+  background-color: #4f4f8a;
+}
+ul#navbar-items li {
+  color: #b6b5b5;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+ul li .fas {
+  font-size: 16px;
+}
+ul#navbar-items li:hover {
+  background-color: #21214e;
+  color: white;
+}
+ul li:hover .fas {
+  color: #f7910c;
+}
+
+.fs13 {
+  font-size: 13px;
+}
+.fs14 {
+  font-size: 18px;
+  color: white;
+}
+.fas.fa-times {
+  color: red;
+}
+.fas.fa-check {
+  color: greenyellow;
+}
+.example {
+  width: 50%;
+}
+@media (max-width: 780px) {
+  #navbar {
+    width: 20%;
+  }
+  #topnavbar {
+    width: 80%;
+  }
+  .text-decoration-none.fs14 {
+    font-size: 10px;
+  }
+  .text-decoration-none .fs13 {
+    font-size: 9px;
+  }
+}
+@media (max-width: 430px) {
+  #navbar-items,
+  #topnavbar {
+    width: 100%;
+    height: 100%;
+  }
+  #navbar-items {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .topnav a {
+    font-size: 12px;
+    padding: 12px;
+  }
+  #navbar {
+    width: 100%;
+    background-color: blue;
+  }
+  .example {
+    width: 100%;
+  }
+  .text-decoration-none.fs14 {
+    font-size: 14px;
+  }
+  .text-decoration-none .fs13 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 376px) {
+  #navbar-items {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .topnav a {
+    font-size: 12px;
+    padding: 7px;
+  }
+}
+@media (max-width: 320px) {
+  .topnav a {
+    font-size: 10px;
+    padding: 4px;
+  }
+}
+
+</style>
+
+    <!--
+
+Tooplate 2134 Gotto Job
+
+https://www.tooplate.com/view/2134-gotto-job
+
+Bootstrap 5 HTML CSS Template
+
+-->
+</head>
+
+<body id="top" style="background-color: #f8f8f8;">
+
+    <div class="ook">
+
+    </div>
+
+    <!-- <script type="text/javascript" src="https://demo.dashboardpack.com/architectui-html-free/assets/scripts/main.js"></script> -->
+    <div style="background: url('')">
+
+
+
+        <nav class="navbar navbar-expand-lg" style="border-bottom: 1px solid #d6d6d6;">
+
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/logo_cdc.png" class="img-fluid logo-image">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-center ms-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Accueil</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"> A propos </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="contact.html">Contactez-nous</a>
+
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="inscription.html" style="color:#b4972c">S'inscrire</a>
+                        </li>
+
+
+                        <li>
+
+
+
+                        </li>
+                        <div href="#" class="call-us d-flex align-items-center">
+                          <div class="switch">
+                            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                            <label for="language-toggle"></label>
+                            <span class="on"><img width="20" src="./images/morocco.png"> AR</span>
+                            <span class="off">FR <img width="20" src="./images/france.png"></span>
+                          </div>
+                        </div>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <main>
+
+            <header class="dashbord-header">
+                <div class="section-overlay"></div>
+                <div class="wrapper container-fluid" style="padding-left:100px;padding-right:100px">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- <h2 class="heading">Admin Dashboard Stat</h2> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat red" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-usd"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span>312</span>
+                                    </div>
+                                    <div class="desc">Total Profit</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat blue" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-bar-chart-o"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span>12.5</span>
+                                    </div>
+                                    <div class="desc">New Order</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat hoki" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-credit-card"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span>+ 53%</span>
+                                    </div>
+                                    <div class="desc">Popularity</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat purple" href="#">
+                                <div class="visual">
+                                    <i class="fa fa-comments"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span>689</span>
+                                    </div>
+                                    <div class="desc">New Feedback</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+            <div>
+
+                <div>
+
+
+                    <div class="container-fluid" id="grad1">
+
+                    </div>
+                    <div class="over">
+                        <div class="row justify-content-center mt-0 mb-5 background" style="width: 100%;">
+                            <div class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 " style="width: 84%;">
+
+                                <div id="topnavbar" style="position: relative;background-color:white;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 2%;">
+                                    <!-- <div class="topnav mb-3">
+                                        <div class="d-flex px-1"> <a href="#home" class="active">merchants</a> <a href="#news">users</a> <a href="#contact">company<span class="px-1">&</span>mid</a> <a href="#contact">account</a> </div>
+                                    </div> -->
+                                    <div class="d-flex align-items-center mb-3 px-md-3 px-2"> <span class="text-uppercase fs13 fw-bolder pe-3">Rechercher<span class="ps-1">par</span></span>
+                                        <form class="example d-flex align-items-center"> <input type="text" placeholder="Type in Company Name Or Mid id" name="search"> <button type="submit"><i class="fa fa-search"></i></button> </form>
+                                        <span class="col-5 text-end"><a href="./steper.html"><button class="btn btn-danger">Ajouter +</button></a></span> </div>
+                                    <div class="table-responsive px-2">
+                                        <table class="table table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">ID</th>
+                                                    <th scope="col">Association</th>
+                                                    <th scope="col">MID</th>
+                                                    <th scope="col">BANK<span class="ps-1">NAME</span></th>
+                                                    <th scope="col">CUR</th>
+                                                    <th class="text-center" scope="col">3DS</th>
+                                                    <th class="text-center" scope="col">ACTIVE</th>
+                                                    <th class="text-center" scope="col">ACTION</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><span class="bg-blight">235</span></td>
+                                                    <td><span class="bg-bdark">ABC<span class="ps-1">LOANS</span></span></td>
+                                                    <td><span class="bg-blight">1343</span></td>
+                                                    <td><span class="bg-bdark">Faster<span>Trading</span></span></td>
+                                                    <td><span class="bg-bdark">GBP</span></td>
+                                                    <td class="text-center px-0"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-ellipsis-h"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="bg-blight">236</span></td>
+                                                    <td><span class="bg-bdark">BCE<span class="ps-1">LOANS</span></span></td>
+                                                    <td><span class="bg-blight">1298</span></td>
+                                                    <td><span class="bg-bdark">Secure<span>Trading</span></span></td>
+                                                    <td><span class="bg-bdark">GBP</span></td>
+                                                    <td class="text-center px-0"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-ellipsis-h"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="bg-blight">237</span></td>
+                                                    <td><span class="bg-bdark">CDE<span class="ps-1">LOANS</span></span></td>
+                                                    <td><span class="bg-blight">1313</span></td>
+                                                    <td><span class="bg-bdark">Secure<span>Trading</span></span></td>
+                                                    <td><span class="bg-bdark">GBP</span></td>
+                                                    <td class="text-center px-0"><span class="fas fa-times"></span></td>
+                                                    <td class="text-center"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-ellipsis-h"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="bg-blight">235</span></td>
+                                                    <td><span class="bg-bdark">DEF<span class="ps-1">LOANS</span></span></td>
+                                                    <td><span class="bg-blight">1323</span></td>
+                                                    <td><span class="bg-bdark">Secure<span>Trading</span></span></td>
+                                                    <td><span class="bg-bdark">GBP</span></td>
+                                                    <td class="text-center px-0"><span class="fas fa-times"></span></td>
+                                                    <td class="text-center"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-ellipsis-h"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="bg-blight">235</span></td>
+                                                    <td><span class="bg-bdark">FEG<span class="ps-1">LOANS</span></span></td>
+                                                    <td><span class="bg-blight">1443</span></td>
+                                                    <td><span class="bg-bdark">Secure<span>Trading</span></span></td>
+                                                    <td><span class="bg-bdark">GBP</span></td>
+                                                    <td class="text-center px-0"><span class="fas fa-times"></span></td>
+                                                    <td class="text-center"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-ellipsis-h"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="bg-blight">237</span></td>
+                                                    <td><span class="bg-bdark">GFR<span class="ps-1">LOANS</span></span></td>
+                                                    <td><span class="bg-blight">1943</span></td>
+                                                    <td><span class="bg-bdark">Faster<span>Trading</span></span></td>
+                                                    <td><span class="bg-bdark">GBP</span></td>
+                                                    <td class="text-center px-0"><span class="fas fa-times"></span></td>
+                                                    <td class="text-center"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-ellipsis-h"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="bg-blight">235</span></td>
+                                                    <td><span class="bg-bdark">ABC<span class="ps-1">LOANS</span></span></td>
+                                                    <td><span class="bg-blight">1343</span></td>
+                                                    <td><span class="bg-bdark">Faster<span>Trading</span></span></td>
+                                                    <td><span class="bg-bdark">GBP</span></td>
+                                                    <td class="text-center px-0"><span class="fas fa-times"></span></td>
+                                                    <td class="text-center"><span class="fas fa-check"></span></td>
+                                                    <td class="text-center"><span class="fas fa-ellipsis-h"></span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between px-3 mt-3">
+                                        <div class="bg-bdark fs13"> <span>Page</span> <input class="input-10 text-center" type="text" value="1"> <span><span class="px-1">of</span>1</span> </div>
+                                        <div class="d-flex justify-content-end bg-bdark fs13"> <span class="pe-1">Afficher</span> <input class="input-10" type="number" value="25"> <span class="ps-2"><span class="pe-2">/</span>Page</span> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+    <footer class="site-footer" style="background: url('./images/zelij.png'); ">
+        <div style="background-color: #f3f3f3; opacity:0.95">
+            <div class="container">
+                <div class="row">
+
+
+
+                    <div class="col-lg-4 col-md-3 col-6 ms-lg-auto">
+                        <img src="images/logo_cdc.png" class="img-fluid logo-image"
+                            style="margin-top: 20px;margin-bottom:25px;">
+
+                        <p>
+                            La réparation des compte d'emploi <br>des fonds publics
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <h6 class="site-footer-title" style="color: #741c21;">Liens Utiles</h6>
+
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Cour des comptes</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Devenir bénéficier</a>
+                            </li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contactez-nous</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Termes&conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <h6 class="site-footer-title" style="color: #741c21;">Contactez-nous</h6>
+
+                        <p class="mb-2">
+                            <i class="custom-icon bi-geo-alt me-1"></i>
+
+                            <a href="#" class="site-footer-link">
+                                Secteur 10 Zenkat Ettoute Hay Ryad -Rabat
+                            </a>
+                        </p>
+
+                        <p class="mb-2">
+                            <i class="custom-icon bi-telephone me-1"></i>
+
+                            <a href="tel: 305-240-9671" class="site-footer-link">
+                                0537 71 31 19
+                            </a>
+                        </p>
+
+                        <p>
+                            <i class="custom-icon bi-envelope me-1"></i>
+
+                            <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                info@jobportal.co
+                            </a>
+                        </p>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="site-footer-bottom" style=" position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+          ">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-12 " style="margin: 0 auto; ">
+                        <p style="text-align: center;" class="copyright-text">© Cour des comptes . Tous Droits
+                            Réservés.</p>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+<!-- <script>
+    $("input").focus(function () {
+        $(this).parents(".form-group").addClass("focused");
+    });
+
+    $("input").blur(function () {
+        var inputValue = $(this).val();
+        if (inputValue == "") {
+            $(this).removeClass("filled");
+            $(this).parents(".form-group").removeClass("focused");
+        } else {
+            $(this).addClass("filled");
+        }
+    });
+    $(document).ready(function () {
+
+        var current_fs, next_fs, previous_fs; //fieldsets
+        var opacity;
+
+        $(".next").click(function () {
+
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
+
+            //Add Class Active
+            $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+            //show the next fieldset
+            next_fs.show();
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    next_fs.css({ 'opacity': opacity });
+                },
+                duration: 600
+            });
+        });
+
+        $(".previous").click(function () {
+
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+
+            //Remove class active
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+            //show the previous fieldset
+            previous_fs.show();
+
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    previous_fs.css({ 'opacity': opacity });
+                },
+                duration: 600
+            });
+        });
+
+        $('.radio-group .radio').click(function () {
+            $(this).parent().find('.radio').removeClass('selected');
+            $(this).addClass('selected');
+        });
+
+        $(".submit").click(function () {
+            return false;
+        })
+
+    });
+</script> -->
+<!-- <script>
+    let cnf = document.getElementById('confirm');
+    if (cnf.disabled) {
+        cnf.style.color = "green"
+    }
+</script> -->
+<!-- <script>
+    let select = document.getElementById('slct');
+    let labelStyle = document.getElementById('lbl')
+    select.addEventListener('click', function () {
+        if (select.value !== "Cadre de Convention")
+            labelStyle.style.display = "none"
+    })
+
+
+</script>
+<script>
+
+
+</script> -->
+
+
+</html>
